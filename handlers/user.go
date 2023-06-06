@@ -47,7 +47,7 @@ func (c *Context) UserRegistration(ctx *gin.Context) {
 		"success": true,
 		"data":    u,
 		"code":    http.StatusOK,
-		"message": "Success Create Customer",
+		"message": "Success Create User",
 	}
 
 	ctx.JSON(http.StatusOK, result)
